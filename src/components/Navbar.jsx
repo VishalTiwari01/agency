@@ -270,6 +270,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         to="/services/SecurityServices/bankatm-security-guard"
+                        onClick={handleMenuClick}
                         className="block px-4 py-2 hover:bg-gray-700"
                       >
                         Bank/Atm Security Guard
