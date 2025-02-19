@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#0d1321] text-white fixed top-0 left-0 right-0 z-50">
+    <nav className="bg-[#0d1321] text-white  top-0 left-0 right-0 z-50 mb-2">
       <div className="container md:flex md:justify-between mx-auto px-4 md:px-12 py-4 items-center ">
         {/* Logo */}
 
@@ -53,7 +53,7 @@ const Navbar = () => {
             <li className="relative group">
               <Link
                 to="/"
-                className="block px-4 py-2 hover:bg-gray-700"
+                className="block px-12 py-2 hover:bg-gray-700"
                 onClick={handleMenuClick}
               >
                 Home
@@ -63,7 +63,7 @@ const Navbar = () => {
             {/* Dropdown - Company */}
             <li className="relative group">
               <button
-                className="flex justify-between items-center w-full px-4 py-2 hover:bg-gray-700 md:hover:bg-transparent"
+                className="flex justify-between items-center w-full px-12 py-2 hover:bg-gray-700 md:hover:bg-transparent"
                 onClick={() => toggleDropdown("company")}
               >
                 Company
@@ -118,7 +118,7 @@ const Navbar = () => {
             {/* Dropdown - Services */}
             <li className="relative group">
               <button
-                className="flex justify-between items-center w-full px-4 py-2 hover:bg-gray-700 md:hover:bg-transparent"
+                className="flex justify-between items-center w-full px-12 py-2 hover:bg-gray-700 md:hover:bg-transparent"
                 onClick={() => toggleDropdown("services")}
               >
                 Services
@@ -441,7 +441,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/career"
-                className="block px-4 py-2 hover:bg-gray-700"
+                className="block px-12 py-2 hover:bg-gray-700"
                 onClick={handleMenuClick}
               >
                 Career
