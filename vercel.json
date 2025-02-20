@@ -1,20 +1,9 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "vite.config.js",
-            "use": "@vercel/node",
-            "config": {
-                "includeFiles": [
-                    "dist"
-                ]
-            }
-        }
-    ],
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "dist/$1"
+            "destination": "/index.html"
         }
     ]
 }
