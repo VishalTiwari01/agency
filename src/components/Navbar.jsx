@@ -287,6 +287,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
+                      onClick={handleMenuClick}
                         to="/services/SecurityServices/healthcare-security-guard"
                         className="block px-4 py-2 hover:bg-gray-700"
                       >
