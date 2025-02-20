@@ -23,7 +23,7 @@ import EventSecurityGuard from "./pages/Services/SecurityServices/EventSecurityG
 import EducationInstitutionSecurity from "./pages/Services/SecurityServices/EducationInstitutionSecurity";
 import CommericalSecurityGuard from "./pages/Services/SecurityServices/CommericalSecurityGuard";
 import HotelSecurityGuard from "./pages/Services/SecurityServices/HotelSecurityGuard";
-import HealthCareSecurityGuard from "./pages/Services/SecurityServices/HealthCareSecurityGuard";
+import HealthcareSecurityGuard from "./pages/Services/SecurityServices/HealthCareSecurityGuard";
 import MetroRailSecurityGuard from "./pages/Services/SecurityServices/Metro&RailSecurityGuard";
 import HouseKeeping from "./pages/Services/FacilityManagement/HouseKeeping";
 import PantyServices from "./pages/Services/FacilityManagement/PantyServices";
@@ -100,7 +100,7 @@ const App = () => {
         />
         <Route
           path="/services/SecurityServices/healthcare-security-guard"
-          element={<HealthCareSecurityGuard />}
+          element={<HealthcareSecurityGuard />}
         />
         <Route
           path="/services/SecurityServices/hotel-security-guard"
