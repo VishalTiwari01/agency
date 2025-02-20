@@ -3,10 +3,10 @@
     "builds": [
         {
             "src": "vite.config.js",
-            "use": "@vercel/node",
+            "use": "@vercel/static-build",
             "config": {
                 "includeFiles": [
-                    "dist/**"
+                    "dist"
                 ]
             }
         }
@@ -14,7 +14,7 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/index.html"
+            "destination": "dist/$1"
         }
     ]
 }
