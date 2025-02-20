@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const HealthcareSecurityGuard = () => {
+const HealthCareSecurityGuard = () => {
    const menuItems = [
      {
        id: 1,
@@ -223,4 +223,4 @@ const HealthcareSecurityGuard = () => {
    );
 }
 
-export default HealthcareSecurityGuard
+export default HealthCareSecurityGuard
