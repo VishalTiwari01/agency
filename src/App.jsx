@@ -17,7 +17,7 @@ import BankingFinance from "./pages/Services/Consulting/BankingFinance";
 import RealEstate from "./pages/Services/Consulting/RealEstate";
 import Agriculture from "./pages/Services/Consulting/Agriculture";
 import SecurityGuard from "./pages/Services/SecurityServices/SecurityGuard";
-import BankATMSecurityGuard from './pages/Services/SecurityServices/BankATMSecurityGuard'
+import BankATMSecurityGuard from './pages/Services/SecurityServices/BankATMSecurityGuard';
 import PersonalSecurityGuard from "./pages/Services/SecurityServices/PersonalSecurityGuard";
 import EventSecurityGuard from "./pages/Services/SecurityServices/EventSecurityGuard";
 import EducationInstitutionSecurity from "./pages/Services/SecurityServices/EducationInstitutionSecurity";
@@ -31,7 +31,7 @@ import PlumbingServices from "./pages/Services/FacilityManagement/PlumbingServic
 import WasteManegement from "./pages/Services/FacilityManagement/WasteManegment";
 import PestControlServices from "./pages/Services/FacilityManagement/PestControlServices";
 import CashVanLogistics from "./pages/Services/Logistics/CashVanLogistics";
-import DeliveryBoyLogistics from './pages/Services/Logistics/DeliveryBoyLogistics'
+import DeliveryBoyLogistics from './pages/Services/Logistics/DeliveryBoyLogistics';
 import AboutUS from "./pages/Company/AboutUS";
 import Certification from "./pages/Company/Certification";
 import DirectorMessage from "./pages/Company/DirectorMessage";
@@ -40,7 +40,7 @@ import TrustedBrands from "./components/TrustedBrands";
 import TrustedManpower from "./components/TrustedManpower";
 import Services from "./components/Services";
 import PhotoGallery from "./components/PhotoGallery";
-import ElectronicSurveillance from "./pages/Services/ElectronicSurveillance"
+import ElectronicSurveillance from "./pages/Services/ElectronicSurveillance";
 
 const App = () => {
   return (
