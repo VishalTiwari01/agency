@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const BankAtmSecurityGuard = () => {
+const BankATMSecurityGuard = () => {
   const menuItems = [
     {
       id: 1,
@@ -223,4 +223,4 @@ const BankAtmSecurityGuard = () => {
   );
 };
 
-export default BankAtmSecurityGuard;
+export default BankATMSecurityGuard;

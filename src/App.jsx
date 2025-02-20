@@ -17,7 +17,7 @@ import BankingFinance from "./pages/Services/Consulting/BankingFinance";
 import RealEstate from "./pages/Services/Consulting/RealEstate";
 import Agriculture from "./pages/Services/Consulting/Agriculture";
 import SecurityGuard from "./pages/Services/SecurityServices/SecurityGuard";
-import BankAtmSecurityGuard from "./pages/Services/SecurityServices/BankATMSecurityGuard"
+import BankATMSecurityGuard from './pages/Services/SecurityServices/BankATMSecurityGuard'
 import PersonalSecurityGuard from "./pages/Services/SecurityServices/PersonalSecurityGuard";
 import EventSecurityGuard from "./pages/Services/SecurityServices/EventSecurityGuard";
 import EducationInstitutionSecurity from "./pages/Services/SecurityServices/EducationInstitutionSecurity";
@@ -80,7 +80,7 @@ const App = () => {
         />
         <Route
           path="/services/SecurityServices/bankatm-security-guard"
-          element={<BankAtmSecurityGuard />}
+          element={<BankATMSecurityGuard />}
         />
         <Route
           path="/services/SecurityServices/personal-security-guard"
