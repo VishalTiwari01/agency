@@ -52,7 +52,7 @@ const Navbar = () => {
             {/* Regular Links */}
             <li className="relative group">
               <Link
-                to="/"
+                to="/field/"
                 className="block px-12 py-2 hover:bg-gray-700"
                 onClick={handleMenuClick}
               >
